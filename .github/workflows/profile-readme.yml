@@ -1,0 +1,45 @@
+name: Refresh profile README
+
+on:
+  schedule:
+    - cron: "17 */6 * * *" # every six hours
+  workflow_dispatch:
+  push:
+    branches: [master]
+    paths:
+      - "scripts/**"
+      - "tests/**"
+      - ".github/workflows/profile-readme.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-readme
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Test
+        run: python3 -m unittest discover -s tests
+
+      - name: Regenerate images and projects table
+        run: python3 scripts/build_profile.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit if anything changed
+        run: |
+          if git diff --quiet -- assets README.md; then
+            echo "Nothing changed."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets README.md
+          git commit -m "chore: refresh profile README"
+          git push
