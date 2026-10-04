@@ -35,6 +35,11 @@
 
 <img src="assets/activity.svg" width="100%" alt="Contribution heatmap for the last year with current and longest streaks">
 
+### `$ ls ~/projects --pinned`
+
+<!-- projects:start -->
+<!-- projects:end -->
+
 ---
 
 <sub>The images and the table above regenerate every 6 hours via <a href=".github/workflows/profile-readme.yml">GitHub Actions</a> (<a href="scripts/build_profile.py">source</a>). Clawd is the mascot of Anthropic's Claude.</sub>

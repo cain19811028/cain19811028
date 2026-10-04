@@ -1,4 +1,5 @@
 import unittest
+from pathlib import Path
 
 from readmegen import readme
 from readmegen.github import Repo
@@ -27,6 +28,14 @@ class ProjectsTableTest(unittest.TestCase):
         self.assertEqual(row.count(" | "), 3)
         self.assertIn("a \\| b c", row)
         self.assertIn("| — |", row)
+
+
+class CommittedReadmeTest(unittest.TestCase):
+    # The workflow rewrites the real README, so a redesign that drops the markers breaks CI.
+    def test_has_a_slot_for_the_projects_table(self):
+        text = (Path(__file__).resolve().parent.parent / "README.md").read_text(encoding="utf-8")
+        table = readme.projects_table([Repo("x", None, "https://github.com/u/x", 0, None)])
+        self.assertIn(table, readme.replace_block(text, table))
 
 
 if __name__ == "__main__":
