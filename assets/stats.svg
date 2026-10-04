@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="410" height="236" viewBox="0 0 410 236" role="img" aria-label="cain19811028 stats: 21 stars, 33 repos, 4381 contributions and 365 active days in the last year">
+<style>svg{--bg:#faf9f5;--border:#e8e6dc;--fg:#141413;--text:#3d3929;--muted:#87867f;--accent:#d97757;--num:#2f6fd6;--track:#ece9e0;--clawd:#dd876c;--ink:#141413;--l0:#efede6;--l1:#f6d8c9;--l2:#efb497;--l3:#e5916f;--l4:#d97757;}@media (prefers-color-scheme:dark){svg{--bg:#1f1e1d;--border:#3d3d3a;--fg:#faf9f5;--text:#e8e6dc;--muted:#9c9a92;--accent:#d97757;--num:#8ab4f8;--track:#33322f;--clawd:#dd876c;--ink:#000000;--l0:#2b2a28;--l1:#4d3026;--l2:#7a4430;--l3:#ad5a3b;--l4:#e07b55;}}text{font-family:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace;fill:var(--text);white-space:pre}.fg{fill:var(--fg)}.mu{fill:var(--muted)}.ac{fill:var(--accent)}.nm{fill:var(--num)}.b{font-weight:700}.fade{animation:fade .5s ease-out backwards}@keyframes fade{from{opacity:0}}.ring{animation:ring 1.2s ease-out .3s backwards}@keyframes ring{from{stroke-dashoffset:289.03}}@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+<rect x=".5" y=".5" width="409" height="235" rx="10" style="fill:var(--bg);stroke:var(--border)"/>
+<circle cx="18" cy="18" r="4" style="fill:var(--accent)"/>
+<circle cx="32" cy="18" r="4" style="fill:var(--muted)"/>
+<circle cx="46" cy="18" r="4" style="fill:var(--border)"/>
+<text class="mu" x="64" y="22" font-size="12">stats.json</text>
+<line x1="1" y1="34" x2="409" y2="34" style="stroke:var(--border)"/>
+<text class="mu fade" x="24" y="60" font-size="13" style="animation-delay:0.1s">{</text>
+<text class="ac fade" x="24 31.8 39.6 47.4 55.2 63 70.8 78.6 86.4" y="79" font-size="13" style="animation-delay:0.16s">  &quot;stars&quot;</text>
+<text class="mu fade" x="94.2 102 109.8 117.6 125.4 133.2 141 148.8 156.6 164.4 172.2 180 187.8" y="79" font-size="13" style="animation-delay:0.16s">:            </text>
+<text class="nm fade" x="195.6 203.4" y="79" font-size="13" style="animation-delay:0.16s">21</text>
+<text class="mu fade" x="211.2" y="79" font-size="13" style="animation-delay:0.16s">,</text>
+<text class="ac fade" x="24 31.8 39.6 47.4 55.2 63 70.8 78.6 86.4" y="98" font-size="13" style="animation-delay:0.22s">  &quot;repos&quot;</text>
+<text class="mu fade" x="94.2 102 109.8 117.6 125.4 133.2 141 148.8 156.6 164.4 172.2 180 187.8" y="98" font-size="13" style="animation-delay:0.22s">:            </text>
+<text class="nm fade" x="195.6 203.4" y="98" font-size="13" style="animation-delay:0.22s">33</text>
+<text class="mu fade" x="211.2" y="98" font-size="13" style="animation-delay:0.22s">,</text>
+<text class="ac fade" x="24 31.8 39.6 47.4 55.2 63 70.8 78.6 86.4 94.2 102 109.8 117.6" y="117" font-size="13" style="animation-delay:0.28s">  &quot;followers&quot;</text>
+<text class="mu fade" x="125.4 133.2 141 148.8 156.6 164.4 172.2 180 187.8" y="117" font-size="13" style="animation-delay:0.28s">:        </text>
+<text class="nm fade" x="195.6" y="117" font-size="13" style="animation-delay:0.28s">5</text>
+<text class="mu fade" x="203.4" y="117" font-size="13" style="animation-delay:0.28s">,</text>
+<text class="ac fade" x="24 31.8 39.6 47.4 55.2 63 70.8 78.6 86.4 94.2 102 109.8 117.6 125.4 133.2 141 148.8 156.6 164.4 172.2" y="136" font-size="13" style="animation-delay:0.34s">  &quot;contributions_1y&quot;</text>
+<text class="mu fade" x="180 187.8" y="136" font-size="13" style="animation-delay:0.34s">: </text>
+<text class="nm fade" x="195.6 203.4 211.2 219" y="136" font-size="13" style="animation-delay:0.34s">4381</text>
+<text class="mu fade" x="226.8" y="136" font-size="13" style="animation-delay:0.34s">,</text>
+<text class="ac fade" x="24 31.8 39.6 47.4 55.2 63 70.8 78.6 86.4 94.2 102 109.8 117.6 125.4" y="155" font-size="13" style="animation-delay:0.4s">  &quot;commits_1y&quot;</text>
+<text class="mu fade" x="133.2 141 148.8 156.6 164.4 172.2 180 187.8" y="155" font-size="13" style="animation-delay:0.4s">:       </text>
+<text class="nm fade" x="195.6 203.4 211.2 219" y="155" font-size="13" style="animation-delay:0.4s">4381</text>
+<text class="mu fade" x="226.8" y="155" font-size="13" style="animation-delay:0.4s">,</text>
+<text class="ac fade" x="24 31.8 39.6 47.4 55.2 63 70.8 78.6 86.4 94.2 102 109.8 117.6 125.4 133.2 141 148.8 156.6 164.4 172.2" y="174" font-size="13" style="animation-delay:0.46s">  &quot;pull_requests_1y&quot;</text>
+<text class="mu fade" x="180 187.8" y="174" font-size="13" style="animation-delay:0.46s">: </text>
+<text class="nm fade" x="195.6" y="174" font-size="13" style="animation-delay:0.46s">0</text>
+<text class="mu fade" x="203.4" y="174" font-size="13" style="animation-delay:0.46s">,</text>
+<text class="ac fade" x="24 31.8 39.6 47.4 55.2 63 70.8 78.6 86.4 94.2 102 109.8 117.6" y="193" font-size="13" style="animation-delay:0.52s">  &quot;issues_1y&quot;</text>
+<text class="mu fade" x="125.4 133.2 141 148.8 156.6 164.4 172.2 180 187.8" y="193" font-size="13" style="animation-delay:0.52s">:        </text>
+<text class="nm fade" x="195.6" y="193" font-size="13" style="animation-delay:0.52s">0</text>
+<text class="mu fade" x="" y="193" font-size="13" style="animation-delay:0.52s"></text>
+<text class="mu fade" x="24" y="212" font-size="13" style="animation-delay:0.58s">}</text>
+<circle cx="330" cy="132" r="46" style="fill:none;stroke:var(--track);stroke-width:9"/>
+<circle class="ring" cx="330" cy="132" r="46" transform="rotate(-90 330 132)" style="fill:none;stroke:var(--accent);stroke-width:9;stroke-linecap:round;stroke-dasharray:289.03;stroke-dashoffset:0"/>
+<text class="fg b" x="310.2 323.4 336.6" y="136" font-size="22">365</text>
+<text class="mu" x="300 306 312 318 324 330 336 342 348 354" y="154" font-size="10">/ 365 days</text>
+<text class="mu" x="290.4 297.6 304.8 312 319.2 326.4 333.6 340.8 348 355.2 362.4" y="208" font-size="12">active days</text>
+</svg>
