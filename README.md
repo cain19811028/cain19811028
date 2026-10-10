@@ -42,8 +42,8 @@
 | --- | --- | --- | ---: |
 | [**python-codility**](https://github.com/cain19811028/python-codility) | 使用 Python 練習 Codility 的題目 | Python | 11 |
 | [**py-transfermarkt-crawler**](https://github.com/cain19811028/py-transfermarkt-crawler) | get Eternal Table data in www.transfermarkt.co.uk | Python | 2 |
-| [**chrome-extension-photo-downloader**](https://github.com/cain19811028/chrome-extension-photo-downloader) | 製作一個簡易的 Chrome Extension，使用者到特定網站的相簿或圖集頁面，能批次下載網頁上面所有的圖片 | JavaScript | 0 |
-| [**py-sofifa-crawler**](https://github.com/cain19811028/py-sofifa-crawler) | sofifa crawler | Python | 0 |
+| [**poke-rotom**](https://github.com/cain19811028/poke-rotom) | ⚡ Rotom Pokédex for AI Agents: Lightweight Pokémon MCP Server & Skill. Multi-lang (EN/ZH/JA), Battle Stats & Weaknesses, Official HD Sprites, and 99.6% Token Savings! | JavaScript | 0 |
+| [**github-trending-radar**](https://github.com/cain19811028/github-trending-radar) | Daily GitHub Trending radar: first-time entries, breakouts, AI spotlight and non-AI gems | — | 0 |
 <!-- projects:end -->
 
 ---
