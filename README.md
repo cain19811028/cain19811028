@@ -15,6 +15,7 @@
 - 📓 I learn in public: notebooks for Go, Python, PostgreSQL, Docker, Kubernetes, AWS and Azure.
 - 🕷️ Wrote crawlers with Scrapy, solved Codility in Python, tinkered with HITCON CTF challenges.
 - 🤖 Pair-programming with Claude Code these days. It built this page, Clawd included.
+- 🔌 Latest build: [poke-rotom](https://github.com/cain19811028/poke-rotom), an offline Pokémon lookup that AI coding agents call as an MCP server or agent skill.
 - ✍️ Notes and write-ups live on [my blog](https://cain19811028.blogspot.tw/).
 
 ### `$ ls ~/stack`
