@@ -15,7 +15,7 @@
 - 📓 I learn in public: notebooks for Go, Python, PostgreSQL, Docker, Kubernetes, AWS and Azure.
 - 🕷️ Wrote crawlers with Scrapy, solved Codility in Python, tinkered with HITCON CTF challenges.
 - 🤖 Pair-programming with Claude Code these days. It built this page, Clawd included.
-- 🔌 Latest build: [poke-rotom](https://github.com/cain19811028/poke-rotom), an offline Pokémon lookup that AI coding agents call as an MCP server or agent skill.
+- 🔌 Latest build: [voltdex](https://github.com/cain19811028/voltdex), an offline Pokémon lookup that AI coding agents call as an MCP server or agent skill.
 - ✍️ Notes and write-ups live on [my blog](https://cain19811028.blogspot.tw/).
 
 ### `$ ls ~/stack`
@@ -43,7 +43,7 @@
 | --- | --- | --- | ---: |
 | [**python-codility**](https://github.com/cain19811028/python-codility) | 使用 Python 練習 Codility 的題目 | Python | 11 |
 | [**py-transfermarkt-crawler**](https://github.com/cain19811028/py-transfermarkt-crawler) | get Eternal Table data in www.transfermarkt.co.uk | Python | 2 |
-| [**poke-rotom**](https://github.com/cain19811028/poke-rotom) | ⚡ Rotom Pokédex for AI Agents: Lightweight Pokémon MCP Server & Skill. Multi-lang (EN/ZH/JA), Battle Stats & Weaknesses, Official HD Sprites, and 99.6% Token Savings! | JavaScript | 0 |
+| [**voltdex**](https://github.com/cain19811028/voltdex) | ⚡ Unofficial Pokémon data field guide for AI agents: lightweight MCP server & agent skill with multilingual search, battle stats, and sprite downloads. | JavaScript | 0 |
 | [**github-trending-radar**](https://github.com/cain19811028/github-trending-radar) | Daily GitHub Trending radar: first-time entries, breakouts, AI spotlight and non-AI gems | — | 0 |
 <!-- projects:end -->
 
