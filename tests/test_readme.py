@@ -1,10 +1,29 @@
 import unittest
+from html.parser import HTMLParser
 from pathlib import Path
 
-from readmegen import readme
+from readmegen import readme, views
 from readmegen.github import Repo
 
+ROOT = Path(__file__).resolve().parent.parent
 DOC = f"intro\n{readme.START}\nold table\n{readme.END}\noutro\n"
+
+
+class _Images(HTMLParser):
+    def __init__(self):
+        super().__init__()
+        self.found = []
+
+    def handle_starttag(self, tag, attrs):
+        if tag == "img":
+            self.found.append(dict(attrs))
+
+
+def readme_images():
+    """The attributes of every <img> in the committed README."""
+    parser = _Images()
+    parser.feed((ROOT / "README.md").read_text(encoding="utf-8"))
+    return parser.found
 
 
 class ReplaceBlockTest(unittest.TestCase):
@@ -33,9 +52,23 @@ class ProjectsTableTest(unittest.TestCase):
 class CommittedReadmeTest(unittest.TestCase):
     # The workflow rewrites the real README, so a redesign that drops the markers breaks CI.
     def test_has_a_slot_for_the_projects_table(self):
-        text = (Path(__file__).resolve().parent.parent / "README.md").read_text(encoding="utf-8")
+        text = (ROOT / "README.md").read_text(encoding="utf-8")
         table = readme.projects_table([Repo("x", None, "https://github.com/u/x", 0, None)])
         self.assertIn(table, readme.replace_block(text, table))
+
+    def test_every_local_image_is_committed(self):
+        for src in (img["src"] for img in readme_images() if "://" not in img["src"]):
+            with self.subTest(src):
+                self.assertTrue((ROOT / src).is_file())
+
+    def test_the_live_view_counter_is_an_invisible_pixel(self):
+        # komarev can't be cached, so GitHub fetches it live on every visit and shows a broken
+        # image whenever that fetch fails. Only a pixel nobody sees may depend on it.
+        counters = [img for img in readme_images() if img["src"].startswith(views.COUNTER)]
+        self.assertTrue(counters, "nothing counts profile views any more")
+        for img in counters:
+            self.assertIn("style=pixel", img["src"])
+            self.assertEqual((img.get("width"), img.get("height"), img.get("alt")), ("1", "1", ""))
 
 
 if __name__ == "__main__":

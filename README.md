@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://cain19811028.blogspot.tw/"><img src="https://img.shields.io/badge/blog-cain19811028.blogspot.tw-D97757?style=flat-square&logo=blogger&logoColor=white" alt="Blog"></a>
   <a href="https://github.com/cain19811028?tab=followers"><img src="https://img.shields.io/github/followers/cain19811028?style=flat-square&logo=github&label=followers&color=D97757" alt="GitHub followers"></a>
-  <img src="https://komarev.com/ghpvc/?username=cain19811028&label=profile%20views&color=D97757&style=flat-square" alt="Profile views">
+  <img src="assets/views.svg" alt="Profile views">
   <a href="https://claude.com/claude-code"><img src="https://img.shields.io/badge/built%20with-Claude%20Code-D97757?style=flat-square&logo=claude&logoColor=white" alt="Built with Claude Code"></a>
 </p>
 
@@ -49,4 +49,7 @@
 
 ---
 
+<!-- The 1px image below is what counts profile views. The badge at the top is redrawn from
+     that count every 6 hours, so a failed load of the live counter stays invisible. -->
 <sub>The images and the table above regenerate every 6 hours via <a href=".github/workflows/profile-readme.yml">GitHub Actions</a> (<a href="scripts/build_profile.py">source</a>). Clawd is the mascot of Anthropic's Claude.</sub>
+<img src="https://komarev.com/ghpvc/?username=cain19811028&style=pixel" width="1" height="1" alt="">

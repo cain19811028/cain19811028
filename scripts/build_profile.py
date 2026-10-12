@@ -2,7 +2,7 @@
 """Regenerate the profile README's images and projects table from GitHub data.
 
 GITHUB_TOKEN=... python3 scripts/build_profile.py
-python3 scripts/build_profile.py --raw pages.json   # offline, from saved GraphQL payloads
+python3 scripts/build_profile.py --raw pages.json   # offline: saved GraphQL payloads, no views
 """
 
 from __future__ import annotations
@@ -14,23 +14,38 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
-from readmegen import cards, config, github, readme
+from readmegen import cards, config, github, readme, views
 
 ROOT = Path(__file__).resolve().parent.parent
 ASSETS = ROOT / "assets"
 README = ROOT / "README.md"
 
 
-def build(stats: github.Stats, now: datetime, readme_text: str) -> dict[Path, str]:
-    """Every generated file and its new content."""
+def build(
+    stats: github.Stats, now: datetime, readme_text: str, view_count: int | None
+) -> dict[Path, str]:
+    """Every generated file and its new content. No view count keeps the last views badge."""
     table = readme.projects_table(stats.featured())
-    return {
+    outputs = {
         ASSETS / "hero.svg": cards.hero(stats, now),
         ASSETS / "stats.svg": cards.stats_card(stats),
         ASSETS / "languages.svg": cards.languages_card(stats),
         ASSETS / "activity.svg": cards.activity_card(stats),
         README: readme.replace_block(readme_text, table),
     }
+    if view_count is not None:
+        outputs[ASSETS / "views.svg"] = views.badge(view_count)
+    return outputs
+
+
+def read_view_count() -> int | None:
+    """komarev's count, or None when it can't be read: a counter outage shouldn't stop the
+    refresh, and the last committed badge is a better sight than a broken one."""
+    try:
+        return views.fetch_count(config.LOGIN)
+    except (OSError, ValueError) as error:  # network failures are OSErrors
+        print(f"::warning::profile views badge not refreshed: {error}")
+        return None
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -47,7 +62,8 @@ def main(argv: list[str] | None = None) -> int:
         pages = github.fetch_pages(config.LOGIN, token)
 
     stats = github.summarize(pages)
-    outputs = build(stats, datetime.now(timezone.utc), README.read_text(encoding="utf-8"))
+    count = None if args.raw else read_view_count()
+    outputs = build(stats, datetime.now(timezone.utc), README.read_text(encoding="utf-8"), count)
     ASSETS.mkdir(exist_ok=True)
     for path, content in outputs.items():
         path.write_text(content, encoding="utf-8")
