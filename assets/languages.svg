@@ -35,5 +35,5 @@
 <circle class="fade" cx="219" cy="164" r="5" style="fill:#9c9a92;animation-delay:0.7s"/>
 <text class="fg fade" x="230 237.2 244.4 251.6 258.8" y="168" font-size="12" style="animation-delay:0.7s">Other</text>
 <text class="mu fade" x="353.2 360.4 367.6 374.8" y="168" font-size="12" style="animation-delay:0.7s">2.0%</text>
-<text class="mu" x="24 30.6 37.2 43.8 50.4 57 63.6 70.2 76.8 83.4 90 96.6 103.2 109.8 116.4 123 129.6 136.2 142.8 149.4 156 162.6 169.2 175.8 182.4 189 195.6 202.2 208.8 215.4 222 228.6 235.2" y="218" font-size="11"># by bytes across 35 public repos</text>
+<text class="mu" x="24 30.6 37.2 43.8 50.4 57 63.6 70.2 76.8 83.4 90 96.6 103.2 109.8 116.4 123 129.6 136.2 142.8 149.4 156 162.6 169.2 175.8 182.4 189 195.6 202.2 208.8 215.4 222 228.6 235.2" y="218" font-size="11"># by bytes across 36 public repos</text>
 </svg>
