@@ -46,7 +46,7 @@
 | [**py-transfermarkt-crawler**](https://github.com/cain19811028/py-transfermarkt-crawler) | get Eternal Table data in www.transfermarkt.co.uk | Python | 2 |
 | [**voltdex**](https://github.com/cain19811028/voltdex) | ⚡ Unofficial Pokémon data field guide for AI agents: lightweight MCP server & agent skill with multilingual search, battle stats, and sprite downloads. | JavaScript | 0 |
 | [**github-trending-radar**](https://github.com/cain19811028/github-trending-radar) | Daily GitHub Trending radar: first-time entries, breakouts, AI spotlight and non-AI gems | — | 0 |
-| [**tpe-holipop**](https://github.com/cain19811028/tpe-holipop) | — | JavaScript | 0 |
+| [**tpe-holipop**](https://github.com/cain19811028/tpe-holipop) | 🗺️ Taipei weekend & holiday radar: interactive map for pop-up shops, anime expos, and markets. | JavaScript | 0 |
 <!-- projects:end -->
 
 ---
