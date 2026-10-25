@@ -16,7 +16,7 @@
 - 🕷️ Wrote crawlers with Scrapy, solved Codility in Python, tinkered with HITCON CTF challenges.
 - 🤖 Pair-programming with Claude Code these days. It built this page, Clawd included.
 - 🔌 Latest build: [voltdex](https://github.com/cain19811028/voltdex), an offline Pokémon lookup that AI coding agents call as an MCP server or agent skill.
-- 🗺️ Weekend radar: [tpe-holipop](https://github.com/cain19811028/tpe-holipop) ([live map](https://cain19811028.github.io/tpe-holipop/)), an interactive dark-canvas map tracking Taipei pop-ups, anime expos, and holiday markets.
+- 🗺️ Weekend radar: [tpe-holipop](https://github.com/cain19811028/tpe-holipop) ([live map](https://cain19811028.github.io/tpe-holipop/)), an interactive map for Taipei weekend pop-ups & expos.
 - ✍️ Notes and write-ups live on [my blog](https://cain19811028.blogspot.tw/).
 
 ### `$ ls ~/stack`
