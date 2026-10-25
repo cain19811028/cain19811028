@@ -16,6 +16,7 @@
 - 🕷️ Wrote crawlers with Scrapy, solved Codility in Python, tinkered with HITCON CTF challenges.
 - 🤖 Pair-programming with Claude Code these days. It built this page, Clawd included.
 - 🔌 Latest build: [voltdex](https://github.com/cain19811028/voltdex), an offline Pokémon lookup that AI coding agents call as an MCP server or agent skill.
+- 🗺️ Weekend radar: [tpe-holipop](https://github.com/cain19811028/tpe-holipop) ([live map](https://cain19811028.github.io/tpe-holipop/)), an interactive dark-canvas map tracking Taipei pop-ups, anime expos, and holiday markets.
 - ✍️ Notes and write-ups live on [my blog](https://cain19811028.blogspot.tw/).
 
 ### `$ ls ~/stack`
@@ -45,6 +46,7 @@
 | [**py-transfermarkt-crawler**](https://github.com/cain19811028/py-transfermarkt-crawler) | get Eternal Table data in www.transfermarkt.co.uk | Python | 2 |
 | [**voltdex**](https://github.com/cain19811028/voltdex) | ⚡ Unofficial Pokémon data field guide for AI agents: lightweight MCP server & agent skill with multilingual search, battle stats, and sprite downloads. | JavaScript | 0 |
 | [**github-trending-radar**](https://github.com/cain19811028/github-trending-radar) | Daily GitHub Trending radar: first-time entries, breakouts, AI spotlight and non-AI gems | — | 0 |
+| [**tpe-holipop**](https://github.com/cain19811028/tpe-holipop) | 🗺️ Taipei weekend & holiday radar: interactive map for pop-ups, anime expos, and creative markets ([Demo](https://cain19811028.github.io/tpe-holipop/)) | JavaScript | 0 |
 <!-- projects:end -->
 
 ---

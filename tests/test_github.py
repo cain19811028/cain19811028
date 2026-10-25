@@ -33,6 +33,8 @@ class SummarizeTest(unittest.TestCase):
         self.assertEqual([r.name for r in pinned.featured()], ["mine"])
         unpinned = github.summarize([page(repos=repos)])
         self.assertEqual([r.name for r in unpinned.featured(2)], ["high", "mid"])
+        pinned_six = github.summarize([page(repos=repos, pinned=[repo(f"p{i}") for i in range(6)])])
+        self.assertEqual([r.name for r in pinned_six.featured()], [f"p{i}" for i in range(6)])
 
 
 class StreakTest(unittest.TestCase):

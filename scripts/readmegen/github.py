@@ -86,7 +86,7 @@ class Stats:
     pinned: list[Repo]
     recent: list[Repo]  # most recently pushed first
 
-    def featured(self, limit: int = 4) -> list[Repo]:
+    def featured(self, limit: int = 6) -> list[Repo]:
         """Pinned repos, or the most-starred ones when nothing is pinned."""
         if self.pinned:
             return self.pinned[:limit]
