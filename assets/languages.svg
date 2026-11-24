@@ -7,10 +7,10 @@
 <text class="mu" x="64" y="22" font-size="12">languages.yml</text>
 <line x1="1" y1="34" x2="409" y2="34" style="stroke:var(--border)"/>
 <clipPath id="bar"><rect x="24" y="54" width="362" height="10" rx="5"/></clipPath>
-<g class="grow" clip-path="url(#bar)"><rect x="24" y="54" width="125.66" height="10" style="fill:#e34c26"/><rect x="149.16" y="54" width="111.52" height="10" style="fill:#f1e05a"/><rect x="260.18" y="54" width="63.36" height="10" style="fill:#3572A5"/><rect x="323.04" y="54" width="38.02" height="10" style="fill:#663399"/><rect x="360.56" y="54" width="13.94" height="10" style="fill:#1d365d"/><rect x="374.01" y="54" width="3.99" height="10" style="fill:#00ADD8"/><rect x="377.5" y="54" width="3.12" height="10" style="fill:#3178c6"/><rect x="380.12" y="54" width="2.92" height="10" style="fill:#89e051"/><rect x="382.54" y="54" width="3.96" height="10" style="fill:#9c9a92"/></g>
+<g class="grow" clip-path="url(#bar)"><rect x="24" y="54" width="126.21" height="10" style="fill:#e34c26"/><rect x="149.71" y="54" width="111.79" height="10" style="fill:#f1e05a"/><rect x="261" y="54" width="63.57" height="10" style="fill:#3572A5"/><rect x="324.08" y="54" width="37.69" height="10" style="fill:#663399"/><rect x="361.27" y="54" width="13.2" height="10" style="fill:#1d365d"/><rect x="373.96" y="54" width="4.01" height="10" style="fill:#00ADD8"/><rect x="377.47" y="54" width="3.13" height="10" style="fill:#3178c6"/><rect x="380.1" y="54" width="2.93" height="10" style="fill:#89e051"/><rect x="382.53" y="54" width="3.97" height="10" style="fill:#9c9a92"/></g>
 <circle class="fade" cx="29" cy="92" r="5" style="fill:#e34c26;animation-delay:0.3s"/>
 <text class="fg fade" x="40 47.2 54.4 61.6" y="96" font-size="12" style="animation-delay:0.3s">HTML</text>
-<text class="mu fade" x="156 163.2 170.4 177.6 184.8" y="96" font-size="12" style="animation-delay:0.3s">34.6%</text>
+<text class="mu fade" x="156 163.2 170.4 177.6 184.8" y="96" font-size="12" style="animation-delay:0.3s">34.7%</text>
 <circle class="fade" cx="29" cy="116" r="5" style="fill:#f1e05a;animation-delay:0.35s"/>
 <text class="fg fade" x="40 47.2 54.4 61.6 68.8 76 83.2 90.4 97.6 104.8" y="120" font-size="12" style="animation-delay:0.35s">JavaScript</text>
 <text class="mu fade" x="156 163.2 170.4 177.6 184.8" y="120" font-size="12" style="animation-delay:0.35s">30.7%</text>
@@ -19,10 +19,10 @@
 <text class="mu fade" x="156 163.2 170.4 177.6 184.8" y="144" font-size="12" style="animation-delay:0.4s">17.4%</text>
 <circle class="fade" cx="29" cy="164" r="5" style="fill:#663399;animation-delay:0.45s"/>
 <text class="fg fade" x="40 47.2 54.4" y="168" font-size="12" style="animation-delay:0.45s">CSS</text>
-<text class="mu fade" x="156 163.2 170.4 177.6 184.8" y="168" font-size="12" style="animation-delay:0.45s">10.4%</text>
+<text class="mu fade" x="156 163.2 170.4 177.6 184.8" y="168" font-size="12" style="animation-delay:0.45s">10.3%</text>
 <circle class="fade" cx="29" cy="188" r="5" style="fill:#1d365d;animation-delay:0.5s"/>
 <text class="fg fade" x="40 47.2 54.4 61.6" y="192" font-size="12" style="animation-delay:0.5s">Less</text>
-<text class="mu fade" x="163.2 170.4 177.6 184.8" y="192" font-size="12" style="animation-delay:0.5s">3.7%</text>
+<text class="mu fade" x="163.2 170.4 177.6 184.8" y="192" font-size="12" style="animation-delay:0.5s">3.5%</text>
 <circle class="fade" cx="219" cy="92" r="5" style="fill:#00ADD8;animation-delay:0.55s"/>
 <text class="fg fade" x="230 237.2" y="96" font-size="12" style="animation-delay:0.55s">Go</text>
 <text class="mu fade" x="353.2 360.4 367.6 374.8" y="96" font-size="12" style="animation-delay:0.55s">1.0%</text>
